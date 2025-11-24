@@ -283,7 +283,7 @@ p, li, figcaption {
 	max-width: 66em;
 	width: 99%;
     margin: 1.5rem auto;
-    padding: 0.5rem;
+    padding: 1rem;
     background-color: #ffffff;
     border: 1px solid #ddd;
 	border-radius: 0.5em;
@@ -524,3 +524,4 @@ p, li, figcaption {
 	}
 
 }
+
