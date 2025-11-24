@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Radics Martin">
+	<meta name="description" content="Befektetések, pénzügyi alapok és útmutatók">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Befektetések Világa | Kalkulátor</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+	<script src="javascript/kalkulator.js" defer></script> 
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap&subset=latin-ext">
+</head>
+
+<body>
+	<header class="fejlec">
+		<nav class="navigacio">
+			<div class="oldalnev">Befektetések Világa</div>
+			<ul class="menu">
+				<li><a href="index.html">Kezdőlap</a></li>
+				<li><a href="alapok.html">Alapok</a></li>
+				<li><a href="history.html">Történeti áttekintés</a></li>
+				<li><a href="kalkulator.html" class="aktiv">Kalkulátor</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main id="kalkulator-main">
+		<section class="hozam-kalk">
+			<h2>Számold ki a várható hozamodat</h2>
+			<p>Add meg az induló tőkédet, a várható éves kamatlábat, a befektetés időtartamát, a havi befizetéseidet és a fizetendő adót!</p>
+			<div class="kalk-resz">
+				<form id="hozamjs">
+					<label>Kezdőtőke (Ft):</label>
+					<input id="hozam-toke" type="number" min="0" max="100000000" step="1">
+					
+					<label>Éves kamatláb (%):</label>
+					<input id="hozam-kamat" type="number" min="1" max="100" step="1">
+					
+					<label>Időtartam (év):</label>
+					<input id="hozam-ev" type="number" min="1" max="100" step="1">
+					
+					<label>Havi befizetés (Ft):</label>
+					<input id="hozam-havi" type="number" min="0" max="100000000" step="1">
+					
+					<label>Fizetendő adó (%):</label>
+					<input id="hozam-ado" type="number" min="0" max="100" step="1">
+					
+					<button type="submit">Számítás indítása</button>
+				</form>
+				<div id="eredmeny-hozam" class="eredemeny-box"></div>
+			</div>
+		</section>
+			
+		<section class="inflacio-kalk">
+			<h2>Számold ki a kumulált inflációt Magyarországon</h2>
+			<p>Adj meg 2 tetszőleges évet 1990 és 2024 között!</p>	
+			<div class="kalk-resz">
+				<form id="inflaciojs">
+					<label>Első évszám:</label>
+					<input id="inflacio-elso" type="number" min="1990" max="2024" step="1">
+					
+					<label>Utolsó évszám:</label>
+					<input id="inflacio-utolso" type="number" min="1990" max="2024" step="1">
+					
+					<button type="submit">Számítás indítása</button>
+				</form>
+				<div id="eredmeny-inflacio" class="eredemeny-box"></div>
+			</div>
+		</section>
+	</main>
+	
+	<footer class="lablec">
+		<p>&copy; 2025 Befektetések Világa | Minden jog fenntartva</p>
+	</footer>
+</body>
+</html>
