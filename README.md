@@ -1,2 +1,2 @@
-# befektetes
+# Befektetés
 Weboldal a befektetésekről
