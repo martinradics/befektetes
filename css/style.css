@@ -314,7 +314,7 @@ p, li, figcaption {
 	border-radius: 10px;
 	display: block;
 	width: 90%;
-	min-width: 21em;
+	min-width: 22.5em;
 	max-width: 40em;
 	height: auto;
 	margin: 1.4em auto 0.9em auto;
@@ -396,7 +396,7 @@ p, li, figcaption {
 	padding: 1.5em;
 	border-radius: 10px;
 	width: 90%;
-	min-width: 21em;
+	min-width: 22.5em;
 	max-width: 40em;
 	margin: 1.4em auto 0.9em auto;
 	box-shadow: 0 0 18px rgba(0,0,0,0.15);
@@ -539,3 +539,4 @@ p, li, figcaption {
 	}
 
 }
+
