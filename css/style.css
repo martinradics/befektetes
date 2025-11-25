@@ -361,7 +361,7 @@ p, li, figcaption {
 }
 
 #alapok-main .alapszabalyok ol {
-	margin-left: 3em;
+	margin-left: 1.5em;
 	line-height: 1.95;
 }
 
@@ -479,6 +479,10 @@ p, li, figcaption {
 		margin-left: 3em;
 	}
 
+	#alapok-main .alapszabalyok ol {
+		margin-left: 3em;
+	}
+
 	#alapok-main, #kalkulator-main, #history-main {
 		padding: 2.5rem;
 	}
@@ -535,6 +539,7 @@ p, li, figcaption {
 	}
 
 }
+
 
 
 
