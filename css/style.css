@@ -335,7 +335,7 @@ p, li, figcaption {
 #alapok-main .erdekessegek ul,
 #history-main ul {
 	margin-top: 0.25em;
-	margin-left: 3em;
+	margin-left: 1em;
 	line-height: 1.8;
 }
 
@@ -528,5 +528,6 @@ p, li, figcaption {
 	}
 
 }
+
 
 
