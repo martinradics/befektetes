@@ -1,2 +1,2 @@
-# Befektetés
-Weboldal a befektetésekről
+# Befektetések
+Weboldal a befektetések alapjairól, a történetükről és egy kalkulátor hozzá
