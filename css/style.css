@@ -314,7 +314,7 @@ p, li, figcaption {
 	border-radius: 10px;
 	display: block;
 	width: 90%;
-	min-width: 15em;
+	min-width: 16em;
 	max-width: 40em;
 	height: auto;
 	margin: 1.4em auto 0.9em auto;
@@ -335,7 +335,7 @@ p, li, figcaption {
 #alapok-main .erdekessegek ul,
 #history-main ul {
 	margin-top: 0.25em;
-	margin-left: 1em;
+	margin-left: 1.5em;
 	line-height: 1.8;
 }
 
@@ -376,7 +376,7 @@ p, li, figcaption {
 }
 
 #alapok-main .legendak .legendak-kepek figure img {
-	min-width: 15em;
+	min-width: 16em;
 	max-width: 22em;
 }
 
@@ -528,6 +528,7 @@ p, li, figcaption {
 	}
 
 }
+
 
 
 
